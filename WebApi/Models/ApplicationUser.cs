@@ -11,5 +11,7 @@ namespace WebApi.Models
     {
         [Column(TypeName="nvarchar(150)")]
         public String FullName { get; set; }
+        public string doctoIdent { get; set; }
+        public string company { get; set; }
     }
 }
